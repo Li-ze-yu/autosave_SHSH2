@@ -2,10 +2,10 @@ name: Auto Save SHSH2
 permissions: write-all # Allow Release 允许发布 release
 env:
   ## --- required 
-  MODEL: iPhone8,1 # specify device by its model (eg. iPhone8,1)
-  ECID: ab46efcbf71 # must be either DEC or HEX
+  MODEL: “iPhone10,1” # specify device by its model (eg. iPhone8,1)
+  ECID: “1D3840042B002E” # must be either DEC or HEX
   ## --- choosing one of these three below and comment others
-  LATEST: true # if set true, FIRMWARE_VERSION and FIRMWARE_BUILD_ID will become invalid
+  LATEST: “16.7.16” # if set true, FIRMWARE_VERSION and FIRMWARE_BUILD_ID will become invalid
   # FIRMWARE_VERSION: 15.7 # specify firmware version
   # FIRMWARE_BUILD_ID: 19H12 # if set this, FIRMWARE_VERSION will become invalid
   ## ---
